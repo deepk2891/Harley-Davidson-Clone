@@ -1,0 +1,37 @@
+:root {
+    --black: #000;
+    --white: #fff;
+}
+.black {
+    color: var(--black);
+}
+.white {
+    color: var(--white);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+body, html {
+    scroll-behavior: smooth;
+}
+#topbar {
+    height: 3.125rem;
+    background-color: var(--black);
+    font-size: 13px;
+    font-weight: 500;
+}
+#topbar .nav-link {
+    color: var(--white) !important;
+}
+#topbar .nav-link:hover {
+    text-decoration: underline;
+}
+#topbar .india-img {
+    height: 13px;
+    margin: 0 10px 0 0;
+}
