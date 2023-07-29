@@ -35,3 +35,61 @@ body, html {
     height: 13px;
     margin: 0 10px 0 0;
 }
+/* ====================================
+< !-- HEADER START -- >
+======================================= */
+header {
+    height: 64px;
+}
+.logo img {
+    height: 3.125rem;
+}
+header .nav li a {
+    height: 64px;
+    padding: 0 10px;
+    font-size: 17px;
+}
+header .nav li a {
+    color: var(--black) !important;
+}
+header .nav li:hover {
+    background-color: var(--black);
+}
+header .nav li:hover a {
+    color: var(--white) !important;
+}
+.search {
+    border: 0.1px solid black;
+    border-radius: 3px;
+    padding: 0.5rem 9.375rem 0.5rem 0.625rem;
+}
+.search i {
+    font-size: 20px;
+    color: var(--black);
+    font-weight: 600;
+}
+.search:hover i {
+    color: #fa6600;
+}
+.signin {
+    font-size: 0.938rem;
+}
+.signin:hover {
+    color: #fa6600;
+}
+.signin:hover i {
+    color: #fa6600;
+}
+.signin i {
+    font-size: 20px;
+    margin-bottom: -5px;
+    color: var(--black);
+    font-weight: 600;
+}
+.menu-control {
+    font-size: 2.188rem;
+    color: var(--black);
+}
+/* ====================================
+< !-- HEADER END -- >
+======================================= */
