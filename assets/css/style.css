@@ -1,12 +1,28 @@
 :root {
     --black: #000;
     --white: #fff;
+    --orange: #fa6600;
+    --transition02: all 0.2s linear;
+    --transition03: all 0.3s linear;
+    --transition05: all 0.5s linear;
 }
 .black {
     color: var(--black);
 }
 .white {
     color: var(--white);
+}
+.orange {
+    color: var(--orange);
+}
+.transition02 {
+    transition: var(--transition02);
+}
+.transition03 {
+    transition: var(--transition03);
+}
+.transition05 {
+    transition: var(--transition05);
 }
 * {
     margin: 0;
@@ -93,4 +109,42 @@ header .nav li:hover a {
 }
 /* ====================================
 < !-- HEADER END -- >
+======================================= */
+/* ====================================
+< !-- SIGN IN BAR START -- >
+======================================= */
+.signin-bar {
+    width: 30.25rem !important;
+}
+.signin-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 40px;
+}
+.offcanvas-body {
+    padding: 4rem 3.5rem 0;
+}
+.signin-bar .form-control {
+    font-size: 18px;
+}
+.signin-bar p {
+    font-size: 16px !important;
+}
+.signin-btn {
+    border: 1px solid transparent;
+    background-color: var(--orange);
+    padding: 0.75rem 2.188rem;
+}
+.signin-btn:hover {
+    background-color: var(--white);
+    color: var(--orange);
+    border: 1px solid var(--orange);
+}
+.create-acc:hover i {
+    margin-left: .8rem;
+    color: var(--orange);
+}
+/* ====================================
+< !-- SIGN IN BAR END -- >
 ======================================= */

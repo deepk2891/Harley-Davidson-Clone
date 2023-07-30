@@ -11,6 +11,7 @@
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/material-kit/material-kit.min.css" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- media -->
@@ -56,15 +57,54 @@
             <span class="search pb-1 d-none d-sm-block">
                 <i class='bx bx-search'></i>
             </span>
-            <button class="signin text-center border-0 ps-4 bg-white"><i class="bi bi-person-fill d-block"></i>Sign In</button>
+
+            <!-- ======= SignIn-Bar-Controll ======= -->
+            <button class="signin text-center border-0 ps-4 bg-white" data-bs-toggle="offcanvas" data-bs-target="#signin" aria-controls="offcanvasRight">
+                <i class="bi bi-person-fill d-block"></i>
+                Sign In
+            </button>
             <button class="menu-control text-center border-0 bg-white ps-4 d-block d-lg-none"><i class='bx bx-menu'></i></button>
         </div>
     </header>
     <!-- ======= HEADER END ======= -->
+    <!-- ======= SignIn-Bar START ======= -->
+    <div class="signin-bar offcanvas offcanvas-end" tabindex="-1" id="signin" aria-labelledby="offcanvasTopLabel">
+        <button type="button" class="signin-close border-0 bg-white" data-bs-dismiss="offcanvas" aria-label="Close"><i class='bx bx-x'></i></button>
+        <div class="offcanvas-body">
+            <h2 class="fw-bolder display-6 black">Sign In</h2>
+            <form class="pt-4" action="index.html">
+                <div class="pb-3">
+                    <div class="input-group input-group-outline mb-2">
+                        <label class="form-label">Email</label>
+                        <input class="form-control" type="email" required>
+                    </div>
+                </div>
+                <div class="pb-4">
+                    <div class="input-group input-group-outline mb-2">
+                        <label class="form-label">Password</label>
+                        <input class="form-control" type="password" required>
+                    </div>
+                    <a href="#" class="form-text text-decoration-underline black">Forgot Password</a>
+                </div>
+                <p class="fs-6 black">By logging in, you agree to the <a href="#" class="form-text text-decoration-underline black">terms of use</a> and
+                    <a href="#" class="form-text text-decoration-underline black">privacy policy</a>.
+                </p>
+                <input type="submit" value="SIGN IN" class="signin-btn fw-bold white my-2 transition02">
+            </form>
+            <hr style=" border: 1px solid black;">
+
+            <!-- ======= Sign-Up-Bar-Controll ======= -->
+            <button class="create-acc border-0 bg-white fw-bold fs-5 d-flex align-items-center">Create Account
+                <i class="bx bx-right-arrow-alt bx-tada fs-4 ps-2 transition02"></i>
+            </button>
+        </div>
+    </div>
+    <!-- ======= SignIn-Bar END ======= -->
     <!-- Jquery -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap js -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/material-kit/material-kit.min.js"></script>
     <!-- js -->
     <script src="assets/js/main.js"></script>
 </body>
