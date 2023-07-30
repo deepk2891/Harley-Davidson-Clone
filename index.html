@@ -94,12 +94,46 @@
             <hr style=" border: 1px solid black;">
 
             <!-- ======= Sign-Up-Bar-Controll ======= -->
-            <button class="create-acc border-0 bg-white fw-bold fs-5 d-flex align-items-center">Create Account
+            <button class="create-acc border-0 bg-white fw-bold fs-5 d-flex align-items-center" data-bs-toggle="offcanvas" data-bs-target="#signup"
+             aria-controls="offcanvasRight">Create Account
                 <i class="bx bx-right-arrow-alt bx-tada fs-4 ps-2 transition02"></i>
             </button>
         </div>
     </div>
     <!-- ======= SignIn-Bar END ======= -->
+
+    <!-- ======= SignUp-Bar START ======= -->
+    <div class="signup-bar offcanvas offcanvas-end" tabindex="-1" id="signup" aria-labelledby="offcanvasTopLabel">
+        <button type="button" class="signup-close border-0 bg-white" data-bs-dismiss="offcanvas" aria-label="Close"><i class='bx bx-x'></i></button>
+        <div class="offcanvas-body">
+            <h2 class="fw-bolder display-6 black">Create Account</h2>
+            <span class="black">Step 1 of 2</span>
+            <form class="pt-4" action="index.html">
+                <div class="pb-3">
+                    <div class="input-group input-group-outline mb-2">
+                        <label class="form-label">Email</label>
+                        <input class="form-control" type="email" required>
+                    </div>
+                </div>
+                <div class="pb-4">
+                    <div class="input-group input-group-outline mb-2">
+                        <label class="form-label">Password *</label>
+                        <input class="form-control" type="password" required>
+                    </div>
+                </div>
+                <div class="pb-4">
+                    <div class="input-group input-group-outline mb-2">
+                        <label class="form-label">Confirm Password *</label>
+                        <input class="form-control" type="password" required>
+                    </div>
+                </div>
+
+                <!-- CONTINUE -->
+                <input type="submit" value="CONTINUE" class="signup-btn fw-bold white my-2 transition02">
+            </form>
+        </div>
+    </div>
+    <!-- ======= SignUp-Bar END ======= -->
     <!-- Jquery -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap js -->
