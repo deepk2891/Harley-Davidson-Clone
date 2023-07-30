@@ -17,6 +17,17 @@
     html {
         font-size: 14px !important;
     }
+    .hero {
+        background-image: none;
+    }
+    .hero-content {
+        padding: 50px 0 50px 50px;
+        background-color: black;
+    }
+    .seethebike {
+        background-color: white;
+        color: black !important;
+    }
 }
 @media (max-width:768px) {
     html {
@@ -26,5 +37,9 @@
 @media (max-width:576px) {
     html {
         font-size: 12px !important;
+    }
+    .hero-content {
+        padding: 50px 15px;
+        background-color: black;
     }
 }
