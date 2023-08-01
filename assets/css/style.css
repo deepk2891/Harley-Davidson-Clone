@@ -191,31 +191,40 @@ header .nav li:hover a {
 /* ====================================
 < !-- HERO SECTION START -- >
 ======================================= */
-.hero {
-    min-height: 100vh;
+.heroDesktop {
+    height: 100dvh;
     background-image: url('../img/hero-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.hero-content {
+.heroDesktop .hero-content {
     padding: 90px 1px 1px 100px;
 }
-.hero-content h1 {
+.heroDesktop .hero-content h1 {
     font-size: 30px;
-    font-weight: bold;
-    color: var(--white);
 }
-.hero-content p {
+.heroDesktop .hero-content p {
     font-size: 16px;
-    font-weight: normal;
-    color: var(--white);
 }
-.seethebike {
-    color: var(--white) !important;
+.heroDesktop .seethebike {
+    color: var(--white);
     background-color: var(--black);
     letter-spacing: 1px;
-    padding: 14px;
+}
+.heroMobile .hero-content {
+    padding: 2.813rem 1px 2.813rem 3.125rem;
+    background-color: var(--black);
+}
+.heroMobile .hero-content h1 {
+    font-size: 2rem;
+}
+.heroMobile .hero-content p {
+    font-size: 1.2rem;
+}
+.heroMobile .seethebike {
+    background-color: var(--white);
+    letter-spacing: 1px;
 }
 /* ====================================
 < !-- HERO SECTION END -- >
