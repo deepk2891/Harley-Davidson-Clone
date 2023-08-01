@@ -268,3 +268,16 @@ header .nav li:hover a {
 /* ====================================
 < !-- NEW-COLLECTION  END -- >
 ======================================= */
+/* ====================================
+< !-- LIMITED-EDITION  START -- >
+======================================= */
+.limited-edition .content p:nth-child(3) {
+    font-size: 17px;
+    line-height: 1.4;
+}
+.hover01:hover i {
+    margin-left: .5rem;
+}
+/* ====================================
+< !-- LIMITED-EDITION  END -- >
+======================================= */
