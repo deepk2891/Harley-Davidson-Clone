@@ -244,3 +244,27 @@ header .nav li:hover a {
 /* ====================================
 < !-- TOP LINKS  END -- >
 ======================================= */
+/* ====================================
+< !-- NEW-COLLECTION  START -- >
+======================================= */
+.new-collection {
+    background-color: #eeeceb;
+}
+.section-heading {
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: .5px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+.new-collection .content p {
+    font-size: 17px;
+    line-height: 1.4;
+}
+.new-collection .seethebike:hover i {
+    color: var(--orange);
+    margin-left: .5rem;
+}
+/* ====================================
+< !-- NEW-COLLECTION  END -- >
+======================================= */
