@@ -275,6 +275,9 @@ header .nav li:hover a {
     font-size: 17px;
     line-height: 1.4;
 }
+.hover01:hover {
+    color: var(--orange);
+}
 .hover01:hover i {
     margin-left: .5rem;
 }
