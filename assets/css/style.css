@@ -284,3 +284,33 @@ header .nav li:hover a {
 /* ====================================
 < !-- LIMITED-EDITION  END -- >
 ======================================= */
+/* ====================================
+< !-- ANNIVERSARY START -- >
+======================================= */
+.anniversary h2 {
+    line-height: 1;
+    font-size: 40px;
+    font-weight: 900;
+}
+.anniversary p {
+    font-size: 17px;
+    line-height: 1.4;
+}
+.anniversary a {
+    background-color: var(--orange);
+    font-size: 20px;
+    padding: 13px 30px;
+}
+.anniversary a {
+    border: 2px solid transparent;
+    background-color: var(--orange);
+    font-size: 1.2rem;
+    padding: 0.9rem 1.8rem;
+}
+.anniversary a:hover {
+    color: var(--orange);
+    background-color: var(--white);
+}
+/* ====================================
+< !-- ANNIVERSARY END -- >
+======================================= */
