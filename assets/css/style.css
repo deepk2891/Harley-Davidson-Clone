@@ -340,6 +340,27 @@ footer .sub-title li a {
     color: var(--white);
     text-decoration: underline;
 }
+.border-rig {
+    border-right: 0.5px solid #757575;
+}
+.sec3 li a {
+    font-size: 13px;
+}
+.sec3 ul {
+    column-count: 6;
+}
+.sec4 .desc {
+    font-size: 13px;
+    color: #757575;
+}
+.sec4 .language-btn {
+    border: 1px solid var(--orange);
+    padding: 10px;
+}
+.sec4 .india-img {
+    height: 25px;
+    padding-right: 10px;
+}
 /* ====================================
 < !-- FOOTER END -- >
 ======================================= */
